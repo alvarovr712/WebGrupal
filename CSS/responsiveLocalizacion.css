@@ -1,0 +1,112 @@
+
+/* Estilos para pantallas medianas y grandes (≥ 992px) */
+@media screen and (min-width: 992px) {
+    /* Ajustes para el contenedor principal */
+    #contenedor {
+      flex-direction: column;
+      height: auto;
+    }
+    /* Ajustes para la cabecera */
+    #cabecera {
+      font-size: 30px;
+      height: auto;
+      padding: 20px;
+    }
+  
+    /* Ajustes para el menú de navegación */
+    #contenedor nav {
+      padding-left: 0;
+      justify-content: center;
+    }
+  
+    #nav li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  
+    /* Ajustes para las secciones */
+    #sec, #aside {
+      width: 100%;
+      display: block;
+      padding-left: 0;
+      margin-right: 0;
+      border-left: none;
+    }
+  
+    /* Ajustes para las imágenes */
+    #section img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Ajustes para el artículo */
+    #articulo {
+      padding: 20px;
+      font-size: 20px;
+      height: auto;
+    }
+  
+    /* Ajustes para el pie de página */
+    #footer {
+      width: 100%;
+      position: relative;
+      top: auto;
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: 570px) {
+    /* Ajustes para la cabecera */
+    #cabecera {
+      font-size: 20px;
+      height: auto;
+      padding: 10px;
+    }
+    #map1 {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        height: auto; /* Altura automática para mantener la relación de aspecto */
+        max-width: none; /* Eliminar restricciones de ancho máximo */
+      }
+  
+    /* Ajustes para el menú de navegación */
+    #contenedor nav {
+      padding-left: 0;
+      justify-content: center;
+    }
+  
+    #nav li {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    /* Ajustes para las secciones */
+    #sec, #aside {
+      width: 100%;
+      display: block;
+      padding-left: 0;
+      margin-right: 0;
+      border-left: none;
+    }
+  
+    /* Ajustes para las imágenes */
+    #section img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Ajustes para el artículo */
+    #articulo {
+      padding: 10px;
+      font-size: 16px;
+      height: auto;
+    }
+  
+    /* Ajustes para el pie de página */
+    #footer {
+      width: 100%;
+      position: relative;
+      top: auto;
+      margin-left: 0;
+    }
+  }
+  

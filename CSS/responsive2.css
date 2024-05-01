@@ -1,0 +1,361 @@
+/*Responsive*/
+
+/*En el responsive de max 992px el cambio mas drástico es que en el #footer los textos ahora estan en horizontal en vez de en vertical así se pueden leer mejor y no se mezcla un texto
+con el otro.*/
+
+/*Tablet horizontal*/
+@media screen and (max-width:992px) {
+
+    #nav li a{
+        font-size: 15px;
+    }
+
+    #articulo{
+        font-size: 15px;
+        height: 400px;
+        
+    }
+
+    #section{
+        height: 400px;
+    }
+
+    #sec img{
+        height: 300px;
+        
+    }
+    .texto{
+        font-size: 15px;
+
+    }
+
+    .texto p{
+        font-size: 20px;
+    }
+
+    #footer{
+        top:62vh;
+        font-size: 15px;
+        height: 30vh;
+    }
+    #cursos1{
+       left: 20%;
+       bottom: 5vh;
+    }
+    #cursos2{
+        bottom: 17vh;
+        left: 20%;
+    }
+
+    /* Página Áreas de actuación */
+
+    .banner2{
+        padding-left: 20%;
+        padding-bottom: 0%;
+        justify-content: center;
+        padding-top: 10%;
+    }
+
+    .coche{
+        padding: 0%;
+        margin-left: 3%;
+
+    }
+
+    .moto{
+        padding: 0%;
+        margin-left:3%
+    }
+
+    .maquinaria{
+        padding: 5%;
+        margin-left:3%
+    }
+
+    .carta{
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 10%;
+        margin-bottom: -20%;
+        padding-bottom: 30%;
+    }
+
+    .precio{
+        padding-top: 70%;
+        margin-bottom: 40%;
+    }
+
+    #informacion li{
+        font-size: 0.7em;
+    }
+    
+}
+/*Responsive maximo 570 lo que hemos hecho es cambiar el formato de la página suprimiendo #footer para tener mas espacio, le hemos insertado una posicion absoluta a articulo para
+poder posicionarlo justo debajo de la imagen y asi poder coger el espacio de #footer.
+Por lo demás el formato es igual cambiando el tamaño del texto para que cuadre en nuestra página web.*/
+
+/*Movil horizontal*/
+
+@media screen and (max-width:570px) {
+
+    #nav li a{
+        font-size: 15px;
+    }
+
+    #articulo{
+        padding: 15px;
+        font-size: 15px;
+        height: 400px;
+        width: 40%;
+        position: absolute;
+        bottom: 95px;
+        left: 0px;
+    }
+
+    #section{
+       
+        height: 260px;
+        
+        
+    }
+
+    #sec img{
+
+        height: 300px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+        height: 250px;
+        
+    }
+    #aside{
+        padding-right: 50p;
+    }
+    .texto{
+        font-size: 11px;
+
+    }
+
+    .texto p{
+        font-size: 12px;
+    }
+
+    #footer{
+        display: none;
+        top:62vh;
+        font-size: 15px;
+        height: 30vh;
+    }
+    #cursos1{
+       left: 20%;
+       bottom: 5vh;
+    }
+    #cursos2{
+        bottom: 17vh;
+        left: 20%;
+    }
+   
+    #cabecera h1{
+        display: inline;
+        font-size: 30px;
+    }
+
+    .icono{
+        height: 40px;
+        padding-left: 0px;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    /* Página Áreas de actuación */
+
+    #select{
+        display: none;
+    }
+
+    .banner2{
+        padding-left: 30%;
+        padding-bottom: 0%;
+    }
+
+    .coche{
+        padding-left:0%;
+    }
+
+    .maquinaria{
+        padding-left: 0%;
+    }
+
+    .carta{
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 25%;
+        margin-bottom: -30%;
+        padding-bottom: 30%;
+    }
+
+    .precio{
+        padding-top: 80%;
+        margin-bottom: 40%;
+    }
+
+    #informacion li{
+        font-size: 0.7em;
+    }
+}
+
+/*Movil vertical*/
+
+@media screen and (max-width:320px) {
+
+    #nav li a{
+        font-size: 15px;
+        padding: 0px 6px;
+    }
+
+    #articulo{
+        
+        font-size: 15px;
+        height: 400px;
+        width: 90%;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        
+    }
+
+    #sec img{
+
+        height: 300px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+        height: 250px;
+        display: none;
+        
+    }
+    #aside{
+        display: none;
+       
+    }
+
+    #footer{
+        display: flex;
+        top:55vh;
+        font-size: 12px;
+        height: 30vh;
+        width: 90%;
+    }
+    #cursos {
+        margin: auto;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+
+    }
+    #cursos1{
+        
+       left:20px;
+       bottom: 5vh;
+       
+    }
+    #cursos2{
+        bottom: 17vh;
+        left: 20px;
+    }
+    /*Le hemos metido posicion absoluta tanto a el titulo de la cabecera como al icono para poder moverlos y centrarlos correctamente.*/
+    #cabecera h1{
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+    }
+
+    .icono{
+        height: 40px;
+        padding-left: 0px;
+        align-items: center;
+        position: absolute;
+        top: 5px;
+        right: 150px;
+    }
+
+    #foot{
+        position: absolute;
+        bottom: 0px;
+    }  
+
+    /* Página Áreas de actuación */
+
+    .banner1{
+        font-size: 1.2em;
+    }
+
+    .banner2{
+        padding-left: 12%;
+    }
+
+    .banner2 img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/*Tablet vertical*/
+
+@media screen and (min-width:768px ) and (max-width: 990px) {
+
+    #nav li a{
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    #articulo{
+        display: none;
+        font-size: 14px;
+        height: 400px;
+        
+    }
+
+    #section{
+        height: 400px;
+    }
+
+    #sec img{
+        padding-left: 30px;
+        height: 350px;
+        width: 350px;
+        
+    }
+
+ 
+    .texto{
+        font-size: 12px;
+
+    }
+
+    .texto p{
+        font-size: 17px;
+    }
+
+    #footer{
+        top:57vh;
+        font-size: 15px;
+        height: 35vh;
+        font-size: 15px;
+    }
+    #cursos1{
+       left: 15px;
+       bottom: 7vh;
+    }
+    #cursos2{
+        bottom: 20vh;
+        left: 20px;
+
+
+    }
+    
+}
+
+
+
+

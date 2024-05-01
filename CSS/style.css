@@ -1,0 +1,541 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+   
+}
+#contenedor{
+    margin: auto;
+    background-color: gray;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    
+}
+/*Cabecera - Header */
+#cabecera{
+    font-size: 50px;
+    height: 80px;
+    background-color: green;
+    text-align: center;
+    color: azure;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    
+}
+/*Le he metido al h1 un display:inline para poder aliniearlo con el logo*/
+#cabecera h1{
+    display: inline;
+    font-size: 50px;
+}
+/*Icono coche*/
+.icono{
+    height: 50px;
+    padding-right: 100px;
+    padding-top: 10px;
+   
+}
+
+/*Menú*/
+#contenedor nav{
+    width: 100%;
+    background-color: gray;
+    height: 50px;
+    padding-left: 2vw;
+    display: flex;
+    padding-top: 10px;
+      
+}
+
+#nav{  list-style: none;}
+
+#nav li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 20px;
+    list-style: none;
+    
+    
+}
+
+#nav li:hover{
+    background-color: green;
+   
+}
+
+#nav>li{
+    float: left;
+}
+/*         SECTION         */
+/*Le he puesto inline-flex para poder aliniearlo con el aside horizontalmente y un float:left para cambiarle el flujo de izquierda a derecha */
+#sec{
+
+    background-color: gray;
+    height: 80vh;
+    width: 48%;
+    display:inline-flex;
+    background-color: gray; 
+    color: azure;
+    float: left;  
+   
+    
+}
+#section{
+    margin-top: 10px;
+    color: azure;
+    width: 80%;
+    height: 500px;
+    
+    text-align: left;
+    
+   
+}
+/*Imagenes coches*/
+#section img{
+    padding-top: 50px;
+    padding-left: 5px;
+    width: 95%;
+    height: 450px;
+    background-color: gray;
+    
+    
+}
+#articulo{
+    margin: 10px;
+    
+    text-align: center;
+    padding: 50px 20px;
+    height: 500px;
+    width: 100%;
+    font-size: 25px;
+    
+}
+#footer{
+    margin-left:10px ;
+    position: absolute;
+    width: 46%;
+    top: 70vh;
+    font-size: 20px;
+    height: 20vh;
+    border: inset green 10px
+    
+}
+#cursos1{
+    padding-left: 10px;
+    position: absolute;
+    bottom:  1vh;
+    
+}
+/*Le he dado a el parrafo de cursos una posicion relativa para ponerlo en la mitad entre las dos columnas*/
+#cursos{
+    background-color: green;
+    text-align: center;
+    position: relative;
+    bottom: px;
+    
+    
+}
+
+#cursos2{
+    display: inline-flex;
+    position:absolute;
+    padding-right: 10px;
+    right: 2px;
+    bottom: 2vh;
+}
+
+
+/*                    ASIDE          */
+/*Le he metido un inline-flex y al meter el flujo (float : left) de izquierda a derecha en mi otro contenedor simplemente le he dado el % que me quedaba que es un 48.7 para que me deje
+ponerlas en horizontal.*/
+
+#aside{
+    
+   
+    display: inline-flex;
+    text-align: center;
+    border-left: solid green 10px;
+    width: 48%;
+   margin-right: 20px;
+    padding-left: 60px; 
+    height: 80vh;
+    background-color: gray;
+    
+   
+    
+}
+
+.texto{
+    color: azure;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+.texto h1{
+    /*subrayado al texto*/
+    text-decoration:underline;
+    text-align: center;
+}
+.texto p{
+    text-align: center;
+    font-size: 30px;
+    background-color: green;
+    
+}
+
+
+
+
+#foot{
+    width: 100%;
+    background-color: green;
+    height: 6vh;
+    width: 100%;
+    text-align: right;
+}
+
+#foot img{
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*      Web Contacto    */
+
+
+.form{
+    display: flex;
+    width: 60vw;
+    height: 80vh;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form form{
+
+    width: 50vw;
+    margin: auto;
+}
+/* propiedades de los campos de texto */
+.form form input{
+    width: 80%;
+    height: 2em;
+    border-radius: 5px;
+    margin: 10px;
+    border-width: 1px;
+}
+/* propiedades de la lista desplegable */
+#permisos{
+    width: 200px;
+    height: 2em;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+/* propiedades del textarea */
+#comentarios{
+    width: 50%;
+    height: 60px;
+    resize: none;
+    border-radius: 5px;
+}
+/* propiedades del boton de enviar */
+#enviar{
+    height: 3em;
+    width: 80px;
+    background-color: rgb(3, 213, 3);
+    font-size: 1em;
+    font-weight: 600;
+    border-style: ridge;
+    border-width: 3px;
+}
+/* transicion cambio de color para el boton */
+#enviar:hover{
+    transition: 0.3s;
+    background-color: rgb(145, 245, 145);
+
+}
+/* le hemos puesto para que cuando se haga clic en los campos de texto se
+    cambie el color temporalmente */
+.form textarea:active, input:active{
+    background-color: antiquewhite;
+}
+/* alineado de los parrafos de texto */
+.form form p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 50px;
+    text-align: justify;
+}
+/* centrado y margenes para los titulos h2 */
+.form form h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(8, 120, 8);
+    text-shadow: 0 0 30px rgb(0, 255, 0);
+}
+/* lista de horarios */
+.form form ul{
+    text-align: center;
+    font-weight: 600;
+}
+.form form ul li{
+    list-style: none;
+}
+/* hemos colocado este texto en posicion absoluta
+   y en responsive lo ocultamos (con el otro css) */
+.atencion{
+    font-size: 15px;
+    position: absolute;
+    top: 600px;
+    width: 20%;
+    right: 380px;
+}
+
+/* Página localización */
+#map{
+    margin-top: 2%;
+    margin-left: 50%;
+    height: 680px;
+}
+#map1{
+    border: 3px;
+    border-style: dashed;
+    border-color: rgb(42, 159, 165);
+    width: 800px;
+    height: 600px;
+}
+.submenu{
+    margin-top: 6%;
+    margin-left: 10%;
+    border-color: aqua;
+    border-style: groove;
+    background-color: rgb(255, 255, 255);
+    position:absolute
+}
+.submenu>b{
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.ul-1>li{
+    padding: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ul-2>li{
+    padding: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ul-3>li{
+    padding: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ul-1{
+    display: block;
+    align-items: center;
+}
+li{
+    
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.6s ease 0s;
+    text-align: center;
+    
+}
+
+li:hover{
+    
+    background-color: rgb(0, 238, 255);
+}
+.cadiz{
+    position: relative;
+}
+.ul-2{
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+.ul-2>li{
+    width: 190px;
+    transform: translateX(80px);
+    border-radius: 50%;
+    border-bottom: 1px solid #f90000;
+    text-align: center;
+    background-color: white;
+}
+.ul-2>li:hover{
+    background-color: aqua;
+}
+.cadiz:hover>.ul-2{
+   display: block;
+}
+.sanlucar{
+    
+    position: relative;
+}
+
+.ul-3{
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+.ul-3>li{
+    width: 190px;
+    transform: translateY(-280px);
+    margin-left: 65%;
+    border-radius: 50%;
+    border-bottom: 1px solid #f90000;
+    text-align: center;
+    background-color: white;
+}
+.ul-3>li:hover{
+    background-color: aqua;
+}
+.sanlucar:hover>.ul-3{
+   display: block;
+}
+
+/*Página Áreas de Actuación*/
+
+.banner1{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 4% 0%;
+
+}
+
+.banner2{
+    background-color: gray;
+    padding: 10% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    width: 100%;
+    align-items: center;
+
+}
+
+.banner2 img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    opacity: 85%;
+
+}
+
+.banner2 img:hover{
+    opacity: 100%;
+    box-shadow: 0px 10px 10px green;
+}
+
+.coche{
+    padding: 25% 15% 0% 15%;
+    
+}
+
+.moto{
+    padding: 25% 0%;
+}
+
+.pesados{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.maquinaria{
+    padding: 15% 10% 25% 15%;
+}
+
+.banner1 h2{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: -15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#informacion{
+    margin-top: -5%;
+}
+
+span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.precio{
+    justify-content: center;
+    position: absolute;
+    margin-top: 17%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10%;
+}
+
+.precio a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.precio a:hover{
+    color: green;
+    transition: 1s;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.carta{
+    background-color: green;
+    border: 5px solid black;
+    padding: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: -40%;
+
+}
+
+#description {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#description img {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}

@@ -1,0 +1,217 @@
+/* Responsive para el formulario
+   Hemos ocultado el párrafo de texto del horario con
+   display:none */
+@media screen and (max-width:992px){
+   
+   .form form p{
+      font-size: 15px;
+      font-weight: 600;
+      position: absolute;
+      top: 120px;
+      right: 0px;
+      padding-top: 10px;
+      padding-left: 25px;
+  
+   }
+   .form{
+      width: 100%;
+      font-size: 15px;
+      padding-left: 10px;
+      font-weight: 700;
+      
+     }
+     
+     .form h2{
+      padding-right: 100px;
+      padding-top: 150px;
+     }
+     .form form{
+      width: 90%;
+      height: 80vh;
+      
+     }
+     .atencion{
+      right: 40px;
+      
+      font-size: 10px;
+      width: 50%;
+     }
+     .atencion h2{
+      position: absolute;
+      right: -30px;
+      bottom:-130px;
+     }
+     .atencion p{
+      display: none;
+     }
+     #horario{
+      font-size: 15px;
+      position: absolute;
+      top: 120px;
+      right: 50px;
+     }
+}
+@media screen and (max-width:570px){
+   .form form p{
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+   }
+   .form{
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 700;
+    
+   }
+   .form h2{
+    padding-right: 100px;
+    padding-top: 150px;
+   }
+   .form form{
+    width: 100%;
+    height: 80vh;
+    
+   }
+
+   .form form input{
+    width: 60%;
+    height: 20px;
+   }
+   .atencion{
+    right: 20px;
+    
+    font-size: 10px;
+    width: 50%;
+   }
+   .atencion h2{
+    position: absolute;
+    right: -80px;
+    bottom:-130px;
+   }
+   .atencion p{
+    display: none;
+   }
+   #horario{
+    font-size: 15px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+   }
+  /* Para esta medida hemos ajustado los textos de tamaño, hemos ocultado
+  el ultimo párrafo y hemos centrado y ajustado los campos del formulario */
+   }
+   @media screen and (min-width:768px ) and (max-width: 990px) {
+      .form form p{
+         font-size: 15px;
+         font-weight: 600;
+         position: absolute;
+         top: 120px;
+         right: 0px;
+         padding-top: 10px;
+         padding-left: 25px;
+     
+      }
+      .form{
+         width: 100%;
+         font-size: 15px;
+         padding-left: 10px;
+         font-weight: 700;
+         
+        }
+        
+        .form h2{
+         padding-right: 100px;
+         padding-top: 150px;
+        }
+        .form form{
+         width: 90%;
+         height: 80vh;
+         
+        }
+        .atencion{
+         right: 20px;
+         
+         font-size: 10px;
+         width: 50%;
+        }
+        .atencion h2{
+         position: absolute;
+         right: -50px;
+         bottom:-130px;
+        }
+        .atencion p{
+         display: none;
+        }
+        #horario{
+         font-size: 15px;
+         position: absolute;
+         top: 120px;
+         right: 30px;
+        }
+   }
+   /*Movil horizontal*/
+/*En este responsive hemos hecho mas pequeñas las letras de bienvenida como del formulario, hemos centrado el formulario con un padding al centro y hemos metido un display : none al
+horario de Atención al cliente para ocultarlo.*/
+
+@media screen and (max-width:320px){
+   .form form p{
+    font-size: 12px;
+    font-weight: 800;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    padding-top: 10px;
+    padding-left: 25px;
+
+   }
+   .form{
+    width: 100%;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: 700;
+    
+   }
+   .form h2{
+    
+    padding-top: 200px;
+   }
+   .form form{
+    width: 100%;
+    height: 80vh;
+    padding-left: 40px;
+    
+   }
+
+   .form form input{
+    width: 60%;
+    height: 20px;
+   }
+   .atencion{
+    right: 20px;
+    display: none;
+    font-size: 10px;
+    width: 50%;
+   }
+   .atencion h2{
+    position: absolute;
+    right: -80px;
+    bottom:-130px;
+   }
+   .atencion p{
+    display: none;
+   }
+   #horario{
+    font-size: 15px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+   }
+  
+   }
+

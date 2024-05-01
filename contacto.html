@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/responsive1.css">
+</head>
+<body>
+    <div id="contenedor">
+        
+        <header id="cabecera">
+            <img src="Icon/coche.png" alt="" class="icono">
+            <h1>Autoescuelas El Pilar</h1>
+        </header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quienes_somos.html">Quienes somos</a></li>
+                <li><a href="AreasDeActuacion.html">Áreas de actuación</a></li>
+                <li><a href="localizacion.html">Localización</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="form">
+            <form action="post" method="formulario.php">
+                <p>¡Bienvenido a Autoescuelas El Pilar! Tu destino para obtener información 
+                    completa sobre permisos de conducir en España.
+                    Si tienes preguntas, comentarios o necesitas asesoramiento,
+                    no dudes en contactarnos a través de nuestro formulario de contacto.
+                    Estamos aquí para guiarte en cada paso hacia la obtención de tu licencia de conducir.</p>
+                <h2>
+                    Formulario de contacto
+                </h2>
+                Tu nombre <br><input type="text" name="Nombre" id="" required>
+                <br>
+                Tus apellidos <br><input type="text" name="Apellidos" id="" required>
+                <br>
+                Tu correo electrónico <br><input type="email" name="correo" id="" required>
+                <br>
+                Selecciona el permiso que te interese: <br>
+                <select name="permisos" id="permisos">
+                    <option value="coche manual">coche manual</option>
+                    <option value="coche automatico">coche automático</option>
+                    <option value="ciclomotor">ciclomotor</option>
+                    <option value="A1-125 cc">A1-125 cc</option>
+                    <option value="A2-moto">A2-moto</option>
+                    <option value="A-Gran cilindrada">A-Gran cilindrada</option>
+                    <option value="C-1 y C-camion">C-1 y C-camión</option>
+                    <option value="D1 y D-Autobus">D1 y D-Autobús</option>
+                    <option value="C+E-Tráiler">C+E-Tráiler</option>
+                    <option value="Dumper">Dumper</option>
+                    <option value="Carretillas y elevadoras">Carretillas y elevadoras</option>
+                   
+                </select>
+                <br>
+                Comentarios(Opcional) <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="6"></textarea>
+                <br>
+                <input type="submit" value="enviar" id="enviar">
+                <div class="atencion">
+                <h2>
+                    Horario de Atención
+                </h2>
+                <p>Nuestro equipo está disponible para atenderte durante estos horarios:
+
+                </p>
+                <ul id="horario">
+                    <li>Lunes a Viernes: 9:00 AM - 6:00 PM</li>
+                    <li>Sábados: 10:00 AM - 2:00 PM</li>
+                </ul>
+                
+                    </div>
+                    
+
+            </form>
+        </div>
+        <footer id="foot">
+            
+            <img src="Icon/facebook.png" alt="">
+            <img src="Icon/instagram.png" alt="">
+            <img src="Icon/linkedln.png" alt="">
+        </footer>
+    </div>
+    
+</body>
+</html>
